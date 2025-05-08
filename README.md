@@ -21,6 +21,7 @@ This system models real-world workflows between developers, designers, project m
 ### 1. Clone the Repository
 
 git clone https://github.com/princemathew14/Django-Assignment-01.git
+
 cd Django-Assignment-01
  2. Create a Virtual Environment
 python -m venv venv
@@ -62,11 +63,17 @@ Project Structure Overview
 myproject/
 
  myapp/                # App containing models, views, admin setup
+
  myproject/            # Settings and main config
+
  manage.py             # Django entry point
+
 .env                  # Environment variables (ignored by Git)
+
  env.example          # Sample env file to share
+
 requirements.txt      # All Python dependencies
+
  README.md             # This file
 
 
