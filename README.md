@@ -60,14 +60,14 @@ Make sure relationships (like tasks to users, comments to tasks) are linked.
 Project Structure Overview
 
 myproject/
-│
-├── myapp/                # App containing models, views, admin setup
-├── myproject/            # Settings and main config
-├── manage.py             # Django entry point
-├── .env                  # Environment variables (ignored by Git)
-├── env.example          # Sample env file to share
-├── requirements.txt      # All Python dependencies
-└── README.md             # This file
+
+ myapp/                # App containing models, views, admin setup
+ myproject/            # Settings and main config
+ manage.py             # Django entry point
+.env                  # Environment variables (ignored by Git)
+ env.example          # Sample env file to share
+requirements.txt      # All Python dependencies
+ README.md             # This file
 
 
 
